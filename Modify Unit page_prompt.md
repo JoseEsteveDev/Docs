@@ -229,8 +229,14 @@ Mini description: [Relational Databases, Relational Databases Programming]
 Mini description: [Data Science, Artificial Intelligence, Programming Tools]
 
 #### EDEXCEL - A2
-[Topic 1 - Algorithms & Pr]
-Mini description: []
+[Topic 1 - Algorithms & Programming]
+Mini description: [Algorithm Design, Programming]
+
+[Topic 2 - Representing & Handling Data]
+Mini description: [Data Representation, Handling Data]
+
+[Topic 3 - Computer Systems]
+Mini description: [Boolean Logic, Computer Architecture, Operating Systems]
 
 ## 3. Initial state
 
@@ -244,7 +250,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjkzMTYzMiwxNDYxNDU0NjUwLC0xOT
-I3NDQ5MTk0LDE1MDY2MDc4MzQsLTE5MDM0MzI3MjEsODc5OTE4
-MjgsLTE4NDY3NDA5ODcsLTE2ODI1NTk0NDNdfQ==
+eyJoaXN0b3J5IjpbLTk1NTA4MjQ1LDE0NjE0NTQ2NTAsLTE5Mj
+c0NDkxOTQsMTUwNjYwNzgzNCwtMTkwMzQzMjcyMSw4Nzk5MTgy
+OCwtMTg0Njc0MDk4NywtMTY4MjU1OTQ0M119
 -->
