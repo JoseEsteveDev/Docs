@@ -124,7 +124,10 @@ Mini description: [Program Development Life Cycle, Program Testing, Program Main
 Mini description: [Number systems (Binary, Hexadecimal), Binary Arithmetic, Binary Coded Decimal (BCD), Two's Complement, Text Representation, Bitmap and Vector Images, Sound Representation, Lossy and Lossless Compression]
 
 [Topic 5 - Logic Circuits]
-Mini description: [Logic gates, Logic Circuits, Truth tables, Problen ]
+Mini description: [Logic gates, Logic Circuits, Truth tables, Problem-solving applied to Logic Circuits ]
+
+[Topic 6 - Hardware]
+Mini description: [Computers and their Components (Memory), Hardware Devices (Laser Printer, ]
 
 ## 3. Initial state
 
@@ -138,6 +141,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTU3ODkyOCw4Nzk5MTgyOCwtMTg0Nj
-c0MDk4NywtMTY4MjU1OTQ0M119
+eyJoaXN0b3J5IjpbNzQ4MTg1MDg0LDg3OTkxODI4LC0xODQ2Nz
+QwOTg3LC0xNjgyNTU5NDQzXX0=
 -->
