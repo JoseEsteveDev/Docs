@@ -196,6 +196,11 @@ Mini description: [Graphs, Shortest Path Algorithms (A*, Dijkstra), Machine Lear
 [Topic 15 - Further Programming]
 Mini description: [Exception Handling, File Processing Programming]
 
+#### EDEXCEL - AS
+
+[Topic 1 - Data Representation]
+Mini description: [Number Systems, Units of Measurement, Binary Arithmetic, Text ]
+
 ## 3. Initial state
 
 Before any selection, show a message like: *"Select your level and exam board to see units and resources."*
@@ -208,7 +213,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc0NDkxOTQsMTUwNjYwNzgzNCwtMT
-kwMzQzMjcyMSw4Nzk5MTgyOCwtMTg0Njc0MDk4NywtMTY4MjU1
-OTQ0M119
+eyJoaXN0b3J5IjpbLTE1MjIzNjkxMywtMTkyNzQ0OTE5NCwxNT
+A2NjA3ODM0LC0xOTAzNDMyNzIxLDg3OTkxODI4LC0xODQ2NzQw
+OTg3LC0xNjgyNTU5NDQzXX0=
 -->
