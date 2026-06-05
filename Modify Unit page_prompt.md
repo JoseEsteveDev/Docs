@@ -216,7 +216,7 @@ Mini description: [Python Programming Basics, Clean Code I, Program Design I, Da
 [Topic 6 - Handling Data, Data Structures and ADTs]
 Mini description: [Data Structures Fundamentals, Handling Methods for Data Structures, Abstract Data Types (ADTs), Handling Abstract Data Types (ADTs)]
 
-[Topic  7 - Networks and En]
+[Topic  7 - Networks and Encryption]
 Mini description: []
 
 ## 3. Initial state
@@ -231,7 +231,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTQ1NDY1MCwtMTkyNzQ0OTE5NCwxNT
-A2NjA3ODM0LC0xOTAzNDMyNzIxLDg3OTkxODI4LC0xODQ2NzQw
-OTg3LC0xNjgyNTU5NDQzXX0=
+eyJoaXN0b3J5IjpbLTgzNDk2NDQ0OCwxNDYxNDU0NjUwLC0xOT
+I3NDQ5MTk0LDE1MDY2MDc4MzQsLTE5MDM0MzI3MjEsODc5OTE4
+MjgsLTE4NDY3NDA5ODcsLTE2ODI1NTk0NDNdfQ==
 -->
