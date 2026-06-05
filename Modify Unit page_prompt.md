@@ -32,7 +32,6 @@ Mini description: [How data is stored in binary, hexadecimal, two's complement, 
 Mini description: [Character sets (ASCII, Unicode), Bitmap images, Sound, Lossless and Lossy Compression]
 
 [Topic 3 - Databases]
-
 Mini description: [Data types, Database fundamentals (fields, records, primary key, validation), SQL queries]
 
 [Topic 4 - Logic Circuits]
@@ -72,7 +71,8 @@ Mini description: [Network Hardware (NIC, MAC, IP, router), The Internet, URL, H
 Mini description: [Cybersecurity threats, Solutions to these security threats]
 
 #### EDEXCEL + IGCSE
-
+[Topic 1 - Data Representation I. Number Systems]
+Mini description: [Use of Binary, Binary and Hexadecimal Number Systems, Conversions]
 
 ## 3. Initial state
 
@@ -86,5 +86,5 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODQzMzMyMCwtMTY4MjU1OTQ0M119
+eyJoaXN0b3J5IjpbLTM1NDEzMjM4NywtMTY4MjU1OTQ0M119
 -->
