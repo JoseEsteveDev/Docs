@@ -191,7 +191,10 @@ Mini description: [Encryption, Digital Signatures, Digital Certificates, Encrypt
 Mini description: [Stack, Queue, Hash tables, Dictionaries, Linked Lists, Tree, Binary Search Tree]
 
 [Topic 14 - Artificial Intelligence]
-Mini description: [Graphs, Shortest Path Algorithms (A*, Dijkstra), Machine Learning, Reinforcement Learning, Back Propaga]
+Mini description: [Graphs, Shortest Path Algorithms (A*, Dijkstra), Machine Learning, Reinforcement Learning, Back Propagation and Regresion]
+
+[Topic 15 - Further Programming]
+Mini description: [Exception Handling, File Processing Programming]
 
 ## 3. Initial state
 
@@ -205,7 +208,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTU4ODI3MSwxNTA2NjA3ODM0LC0xOT
-AzNDMyNzIxLDg3OTkxODI4LC0xODQ2NzQwOTg3LC0xNjgyNTU5
-NDQzXX0=
+eyJoaXN0b3J5IjpbMzY2OTE4MDEwLDE1MDY2MDc4MzQsLTE5MD
+M0MzI3MjEsODc5OTE4MjgsLTE4NDY3NDA5ODcsLTE2ODI1NTk0
+NDNdfQ==
 -->
