@@ -78,7 +78,10 @@ Mini description: [Use of Binary, Binary and Hexadecimal Number Systems, Convers
 Mini description: [Text Representation, Bitmap Images, Sound Representation, Limitations on Binary Representation]
 
 [Topic 3 - Data Representation III. Storage, Compression ( Encryption]
-Mini description: []
+Mini description: [Data Storage, File Size Expressions, Data Compression: Lossless and Lossy, Data Encryption]
+
+[Topic 4 - Hardware I. Structure of Machines]
+Mini description: [Machines and Computational Modelling, Logic: the Foundation of Hardware, Hardware ciin]
 
 ## 3. Initial state
 
@@ -92,5 +95,5 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTU0MDQ4NCwtMTY4MjU1OTQ0M119
+eyJoaXN0b3J5IjpbMTA2MzA1MTUwOSwtMTY4MjU1OTQ0M119
 -->
