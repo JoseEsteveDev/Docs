@@ -206,9 +206,9 @@ Before any selection, show a message like: *"Select your level and exam board to
 -   The button should link to a separate page for that unit's resources. For now, use a relative path such as `/resources/level/option/unit <topic number>. <topic name>` . Also, create the empty page with the same style of the website.
 -   Style the button to match your existing design (if you have button styles, reuse them; otherwise, a simple blue background or outline is fine).
 
-Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
+Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2OTE4MDEwLDE1MDY2MDc4MzQsLTE5MD
-M0MzI3MjEsODc5OTE4MjgsLTE4NDY3NDA5ODcsLTE2ODI1NTk0
-NDNdfQ==
+eyJoaXN0b3J5IjpbLTE5Mjc0NDkxOTQsMTUwNjYwNzgzNCwtMT
+kwMzQzMjcyMSw4Nzk5MTgyOCwtMTg0Njc0MDk4NywtMTY4MjU1
+OTQ0M119
 -->
