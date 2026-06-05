@@ -253,11 +253,11 @@ Mini description: [Functional Programming Paradigm, Functional Programming Metho
 [Topic 8 - Networks, Computing Paradigms, and Cybersecurity]
 Mini description: [Networking, The Internet of Things (IoT), Computing Paradigms, Cybersecurity]
 
-[Topic 9 - Structuring and Handling Data]
+[Topic 9 - Structuring and Handling Data [Abstract Data Types (ADTs)]]
 Mini description: [Structure and Operations of ADTs, Methods to represent ADTs in Programming]
 
-[Topic  - ]
-Mini description: []
+[Topic 10 - Emerging Technologies and Professional Practice]
+Mini description: [Emerging Technologies (Encryption, Blockchain, Quantum Computing, Deep Learning), Professional Practice]
 
 ## 3. Initial state
 
@@ -271,7 +271,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzEzMDg1ODcsMTQ2MTQ1NDY1MCwtMT
-kyNzQ0OTE5NCwxNTA2NjA3ODM0LC0xOTAzNDMyNzIxLDg3OTkx
-ODI4LC0xODQ2NzQwOTg3LC0xNjgyNTU5NDQzXX0=
+eyJoaXN0b3J5IjpbMTMyNDIxMjIwMCwxNDYxNDU0NjUwLC0xOT
+I3NDQ5MTk0LDE1MDY2MDc4MzQsLTE5MDM0MzI3MjEsODc5OTE4
+MjgsLTE4NDY3NDA5ODcsLTE2ODI1NTk0NDNdfQ==
 -->
