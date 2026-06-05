@@ -1,0 +1,101 @@
+## # Prompt for Gemini – Modify `/Units` Page (keep existing design, add unit resource buttons)
+
+Modify the existing `/Units` page of my web app. **Important:** Keep the current design, colors, typography, layout, and styling exactly as they are. Do not add new CSS, margins, shadows, or colors unless they already exist. Do not change anything visual except adding the functionality described below.
+
+## 1. Add two selectors (two-step)
+
+-   **First selector (Level):** options `IGCSE` and `A Level`
+    
+-   **Second selector (Exam Board):** depends on chosen level
+    
+    -   If Level = `IGCSE` → options `CAIE` and `Edexcel`
+    -   If Level = `A Level` → options `CAIE` and `Edexcel (IAL)` When the user selects a level and an exam board, display the corresponding units below.
+-   Each unit must show:
+    
+    -   **Topic number**
+        
+    -   **Topic name**
+        
+    -   **Mini description** (short, one or two lines)
+        
+    -   **A button** that says "Access Resources".
+        
+
+### 2. Contents of the units
+
+#### CAIE + IGCSE
+
+[Topic 1 – Number Systems]  
+Mini description: [How data is stored in binary, hexadecimal, two's complement, binary arithmetic, binary shifts, data storage measurement]
+
+[Topic 2 – Data Representation]  
+Mini description: [Character sets (ASCII, Unicode), Bitmap images, Sound, Lossless and Lossy Compression]
+
+[Topic 3 - Databases]
+
+Mini description: [Data types, Database fundamentals (fields, records, primary key, validation), SQL queries]
+
+[Topic 4 - Logic Circuits]
+
+Mini description: [Logic gates, Logic circuits, Trace tables, Problem statements]
+
+[Topic 5 - Computer Architecture]
+
+Mini description: [Von Neumann Architecture, Components of the computer, Components of the CPU, Fetch-Decode-Execute Cycle, Factors that affect the performance of a CPU (core, cache size, clock speed), Instruction set, Embedded Systems]
+
+[Topic 6 - Software and Operating Systems]
+
+Mini description: [Types of software (Application and System software), Functions of the OS, Firmware & BIOS, Interrupt Handling]
+
+[Topic 7 - Programming Languages & Translators]
+
+Mini description: [High-level, low level and assembly languages, Translators (Compilers, Interpreters), Role of the IDE in writing programs]
+
+[Topic 8 - Algorithm Design]
+
+Mini description: [Program Development Life Cycle, Subsystems, Structured Diagrams, Flowcharts, Trace tables]
+
+[Topic 9 - Programming with Pseudocode]
+
+Mini description: [Variables, Constants, Operators, Programming Constructs (Sequence, Selection, Iteration), Standard Methods of Solution, String Handling, Built-in Functions, Variable scope, 1D and 2D arrays]
+
+[Topic 10 - Hardware: Memory & Storage]
+
+Mini description: [Input and Output Devices, Memory (RAM, ROM), Storage (Magnetic, Optical, Solid-state, Virtual memory]
+
+[Topic 11 - Automated and Emerging Technologies]
+
+Mini description: [Automated Systems, Robotics, Artificial Intelligence]
+
+[Topic 12 - Further Programming]
+
+Mini description: [Searching and Sorting Algorithms, validation checks, test data, Subprograms (Functions and Procedures), Variable scope, File Handling]
+
+[Topic 13 - Data Transmission]
+
+Mini description: [Methods: Serial, Parallel, Simplex, Half-duplex, Full duplex, Methods of error detection: Parity Bit, Parity Block Check, Checksum, Echo Check, Check Digit, Automatic Repeat Query (ARQ), Encryption]
+
+[Topic 14 - Networks & The Internet]
+
+Mini description: [Network Hardware (NIC, MAC, IP, router), The Internet, URL, HTTP, web browser, HTML, DNS, cookies, Digital Currency (Blockchain)]
+
+[Topic 15 - Cybersecurity]
+
+Mini description: [Cybersecurity threats, Solutions to these security threats]
+
+#### EDEXCEL +
+
+## 3. Initial state
+
+Before any selection, show a message like: *"Select your level and exam board to see units and resources."*
+
+## 4. Button behaviour
+
+-   Each unit card must have a button (e.g., "Access Resources").
+-   The button should link to a separate page for that unit's resources. For now, use a relative path such as `/resources/level/option/unit <topic number>. <topic name>` . Also, create the empty page with the same style of the website.
+-   Style the button to match your existing design (if you have button styles, reuse them; otherwise, a simple blue background or outline is fine).
+
+Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2ODI1NTk0NDNdfQ==
+-->
