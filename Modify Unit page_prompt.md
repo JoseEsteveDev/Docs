@@ -77,7 +77,7 @@ Mini description: [Use of Binary, Binary and Hexadecimal Number Systems, Convers
 [Topic 2 - Data Representation II. Text and Multimedia]
 Mini description: [Text Representation, Bitmap Images, Sound Representation, Limitations on Binary Representation]
 
-[Topic - ]
+[Topic 3 - Data Representation III. Storage, Compression ( Encryption]
 Mini description: []
 
 ## 3. Initial state
@@ -92,5 +92,5 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mjk2NzExOSwtMTY4MjU1OTQ0M119
+eyJoaXN0b3J5IjpbMTY2OTU0MDQ4NCwtMTY4MjU1OTQ0M119
 -->
