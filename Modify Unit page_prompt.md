@@ -110,6 +110,8 @@ Mini description: [Security Fundamentals, Cyber threats and Attacks, Vulnerabili
 [Topic 13 - The Bigger Picture]
 Mini description: [Environmental Impact, Ethical Impact, Legal Impact, Emerging Technologies]
 
+#### 
+
 ## 3. Initial state
 
 Before any selection, show a message like: *"Select your level and exam board to see units and resources."*
@@ -122,6 +124,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU5ODU3MjgsLTE4NDY3NDA5ODcsLT
-E2ODI1NTk0NDNdfQ==
+eyJoaXN0b3J5IjpbODc5OTE4MjgsLTE4NDY3NDA5ODcsLTE2OD
+I1NTk0NDNdfQ==
 -->
