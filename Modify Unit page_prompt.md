@@ -72,7 +72,13 @@ Mini description: [Cybersecurity threats, Solutions to these security threats]
 
 #### EDEXCEL + IGCSE
 [Topic 1 - Data Representation I. Number Systems]
-Mini description: [Use of Binary, Binary and Hexadecimal Number Systems, Conversions]
+Mini description: [Use of Binary, Binary and Hexadecimal Number Systems, Conversions between systems, Binary Arithmetic]
+
+[Topic 2 - Data Representation II. Text and Multimedia]
+Mini description: [Text Representation, Bitmap Images, Sound Representation, Limitations on Binary Representation]
+
+[Topic - ]
+Mini description: []
 
 ## 3. Initial state
 
@@ -86,5 +92,5 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDEzMjM4NywtMTY4MjU1OTQ0M119
+eyJoaXN0b3J5IjpbLTk0Mjk2NzExOSwtMTY4MjU1OTQ0M119
 -->
