@@ -118,7 +118,10 @@ Mini description: [Computational Thinking Skills, Algorithms, Flowchart, Structu
 Mini description: [Subprograms (Procedures and Functions), Data Types and Data Structures, including Arrays and ADTs]
 
 [Topic 3 - Software Development]
-Mini description: [Program Development Life Cycle, Program Testing and Maintenance]
+Mini description: [Program Development Life Cycle, Program Testing, Program Maintenance]
+
+[Topic - ]
+Mini description: []
 
 ## 3. Initial state
 
@@ -132,6 +135,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDg1MjQyNSw4Nzk5MTgyOCwtMTg0Nj
+eyJoaXN0b3J5IjpbMTQyOTE4MjY4NSw4Nzk5MTgyOCwtMTg0Nj
 c0MDk4NywtMTY4MjU1OTQ0M119
 -->
