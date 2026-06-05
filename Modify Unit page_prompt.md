@@ -182,7 +182,10 @@ Mini description: [Stages on the Compilation Process, Grammar of a Language (Syn
 Mini description: [Process Management (Scheduling Algorithms), Memory Management]
 
 [Topic 11 - Communication and Internet Technologies ]
-Mini description: [Circuit Switching and Packet Switching, Networking Protocols ]
+Mini description: [Circuit Switching and Packet Switching, TCP/IP Protocol Stack, Network Protocols (HTTP, POP3, IMAP, SMTP, Ethernet, Bittorrent)]
+
+[Topic - ]
+Mini description: []
 
 ## 3. Initial state
 
@@ -196,7 +199,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzU4ODg2NywxNTA2NjA3ODM0LC0xOT
+eyJoaXN0b3J5IjpbLTcwODA4MzUxNywxNTA2NjA3ODM0LC0xOT
 AzNDMyNzIxLDg3OTkxODI4LC0xODQ2NzQwOTg3LC0xNjgyNTU5
 NDQzXX0=
 -->
