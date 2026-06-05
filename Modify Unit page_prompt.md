@@ -247,8 +247,11 @@ Mini description: [Object-oriented Paradigm, OOP Methods]
 [Topic 6 - Sorting, Pathfinding, and Compression Algorithms]
 Mini description: [Sorting Algorithms Foundation, Sorting Algorithms Implementation, Pathfinding Algorithms, Shortest Path and Compression Algorithms Implementation, Algorithmic Efficiency (Big O Notation)]
 
-[Topic 7 - ]
-Mini description: []
+[Topic 7 - Programming Paradigms III. Functional Programming]
+Mini description: [Functional Programming Paradigm, Functional Programming Methods]
+
+[Topic 8 - Networks, Computing Paradigms, and Cybersecurity]
+Mini description: [Networking]
 
 ## 3. Initial state
 
@@ -262,7 +265,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2MDUxNzk1LDE0NjE0NTQ2NTAsLTE5Mj
+eyJoaXN0b3J5IjpbNzY5NDY3MjkwLDE0NjE0NTQ2NTAsLTE5Mj
 c0NDkxOTQsMTUwNjYwNzgzNCwtMTkwMzQzMjcyMSw4Nzk5MTgy
 OCwtMTg0Njc0MDk4NywtMTY4MjU1OTQ0M119
 -->
