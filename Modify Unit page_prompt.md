@@ -225,7 +225,11 @@ Mini description: [Programming Paradigms, Recursion Fundamentals, Handling Recur
 [Topic 9 - Databases]
 Mini description: [Relational Databases, Relational Databases Programming]
 
-[Topic  10 - Enabling Te]
+[Topic  10 - Enabling Technologies]
+Mini description: [Data Science, Artificial Intelligence, Programming Tools]
+
+#### EDEXCEL - A2
+[Topic 1 - Algorithms & Pr]
 Mini description: []
 
 ## 3. Initial state
@@ -240,7 +244,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA3MTQ1MjgsMTQ2MTQ1NDY1MCwtMT
-kyNzQ0OTE5NCwxNTA2NjA3ODM0LC0xOTAzNDMyNzIxLDg3OTkx
-ODI4LC0xODQ2NzQwOTg3LC0xNjgyNTU5NDQzXX0=
+eyJoaXN0b3J5IjpbMTEyNjkzMTYzMiwxNDYxNDU0NjUwLC0xOT
+I3NDQ5MTk0LDE1MDY2MDc4MzQsLTE5MDM0MzI3MjEsODc5OTE4
+MjgsLTE4NDY3NDA5ODcsLTE2ODI1NTk0NDNdfQ==
 -->
