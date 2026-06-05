@@ -251,7 +251,13 @@ Mini description: [Sorting Algorithms Foundation, Sorting Algorithms Implementat
 Mini description: [Functional Programming Paradigm, Functional Programming Methods]
 
 [Topic 8 - Networks, Computing Paradigms, and Cybersecurity]
-Mini description: [Networking]
+Mini description: [Networking, The Internet of Things (IoT), Computing Paradigms, Cybersecurity]
+
+[Topic 9 - Structuring and Handling Data]
+Mini description: [Structure and Operations of ADTs, Methods to represent ADTs in Programming]
+
+[Topic  - ]
+Mini description: []
 
 ## 3. Initial state
 
@@ -265,7 +271,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5NDY3MjkwLDE0NjE0NTQ2NTAsLTE5Mj
-c0NDkxOTQsMTUwNjYwNzgzNCwtMTkwMzQzMjcyMSw4Nzk5MTgy
-OCwtMTg0Njc0MDk4NywtMTY4MjU1OTQ0M119
+eyJoaXN0b3J5IjpbLTIxMzEzMDg1ODcsMTQ2MTQ1NDY1MCwtMT
+kyNzQ0OTE5NCwxNTA2NjA3ODM0LC0xOTAzNDMyNzIxLDg3OTkx
+ODI4LC0xODQ2NzQwOTg3LC0xNjgyNTU5NDQzXX0=
 -->
