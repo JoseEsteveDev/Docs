@@ -127,7 +127,10 @@ Mini description: [Number systems (Binary, Hexadecimal), Binary Arithmetic, Bina
 Mini description: [Logic gates, Logic Circuits, Truth tables, Problem-solving applied to Logic Circuits ]
 
 [Topic 6 - Hardware]
-Mini description: [Computers and their Components (Embedded Systems, Memory, Storage), Hardware Devices (Laser Printer, 3D Printer, Microphone, Speakers, Screens, Touchscreens, Virtual Headset]
+Mini description: [Computers and their Components (Embedded Systems, Memory, Storage), Hardware Devices (Laser Printer, 3D Printer, Microphone, Speakers, Screens, Touchscreens, Virtual Headset)]
+
+[Topic 7 - Processor Fundamentals]
+Mini description: [Von Neumann Architecture; Purpose of Registers, ALU, CU, System Clock, and IAS; Factors that ]
 
 ## 3. Initial state
 
@@ -141,6 +144,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTUwMzgxNiw4Nzk5MTgyOCwtMTg0Nj
+eyJoaXN0b3J5IjpbMTQ2MDg3OTc4Miw4Nzk5MTgyOCwtMTg0Nj
 c0MDk4NywtMTY4MjU1OTQ0M119
 -->
