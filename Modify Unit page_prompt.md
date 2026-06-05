@@ -217,6 +217,15 @@ Mini description: [Python Programming Basics, Clean Code I, Program Design I, Da
 Mini description: [Data Structures Fundamentals, Handling Methods for Data Structures, Abstract Data Types (ADTs), Handling Abstract Data Types (ADTs)]
 
 [Topic  7 - Networks and Encryption]
+Mini description: [Network Fundamentals, Encryption]
+
+[Topic 8 - Further Programming]
+Mini description: [Programming Paradigms, Recursion Fundamentals, Handling Recursive Programs]
+
+[Topic 9 - Databases]
+Mini description: [Relational Databases, Relational Databases Programming]
+
+[Topic  10 - Enabling Te]
 Mini description: []
 
 ## 3. Initial state
@@ -231,7 +240,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDk2NDQ0OCwxNDYxNDU0NjUwLC0xOT
-I3NDQ5MTk0LDE1MDY2MDc4MzQsLTE5MDM0MzI3MjEsODc5OTE4
-MjgsLTE4NDY3NDA5ODcsLTE2ODI1NTk0NDNdfQ==
+eyJoaXN0b3J5IjpbLTEwMTA3MTQ1MjgsMTQ2MTQ1NDY1MCwtMT
+kyNzQ0OTE5NCwxNTA2NjA3ODM0LC0xOTAzNDMyNzIxLDg3OTkx
+ODI4LC0xODQ2NzQwOTg3LC0xNjgyNTU5NDQzXX0=
 -->
