@@ -170,7 +170,13 @@ Mini description: [Facts and Rules, Prolog Programming]
 Mini description: [OOP Features, Solve Problems using OOP, Inheritance, Polymorphism, Aggregation, Composition]
 
 [Topic 7 - Boolean Algebra]
-Mini description: [Boolean Algebra, Karnaugh Maps, SR and JK Flip-flops]
+Mini description: [Boolean Algebra, Karnaugh Maps, Half- and Full-adder Circuits, SR and JK Flip-flops]
+
+[Topic 8 - Processors and Computer Architecture]
+Mini description: [RISC and CISC processors, Parallel Processing, Virtual Machines]
+
+[Topic 9 - ]
+Mini description: []
 
 ## 3. Initial state
 
@@ -184,7 +190,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTYyMjcwOSwxNTA2NjA3ODM0LC0xOT
+eyJoaXN0b3J5IjpbMTM1MTg2ODMyNywxNTA2NjA3ODM0LC0xOT
 AzNDMyNzIxLDg3OTkxODI4LC0xODQ2NzQwOTg3LC0xNjgyNTU5
 NDQzXX0=
 -->
