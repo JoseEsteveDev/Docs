@@ -102,7 +102,13 @@ Mini description: [Data Types, Variables and Constants, Input and Output, Operat
 Mini description: [Validation of Data Input, Subprograms, File Handling]
 
 [Topic 11 - Networks]
-Mini description: [Network Design & Protocols, The Internet and]
+Mini description: [Network Design & Protocols, The Internet & The World Wide Web]
+
+[Topic 12 - Network Security]
+Mini description: [Security Fundamentals, Cyber threats and Attacks, Vulnerability Assessment, Protection of Mitigation Strategies]
+
+[Topic 13 - The Bigger Picture]
+Mini description: [Environmental Impact, Ethical Impact, Legal Impact, Emerging Technologies]
 
 ## 3. Initial state
 
@@ -116,6 +122,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjIwMTM4LC0xODQ2NzQwOTg3LC0xNj
-gyNTU5NDQzXX0=
+eyJoaXN0b3J5IjpbLTIxMzU5ODU3MjgsLTE4NDY3NDA5ODcsLT
+E2ODI1NTk0NDNdfQ==
 -->
