@@ -96,7 +96,13 @@ Mini description: [Languages: LL and HL, Translators: Interpreters and Compilers
 Mini description: [Decomposition and Abstraction, Algorithms, Searching and Sorting Algorithms]
 
 [Topic 9 - Programming I]
-Mini description: [Data Typoes,]
+Mini description: [Data Types, Variables and Constants, Input and Output, Operators, Programming Constructs, Data Structures]
+
+[Topic 10 - Programming II]
+Mini description: [Validation of Data Input, Subprograms, File Handling]
+
+[Topic 11 - Networks]
+Mini description: [Network Design & Protocols, The Internet and]
 
 ## 3. Initial state
 
@@ -110,6 +116,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDgyNzk5OTMsLTE4NDY3NDA5ODcsLT
-E2ODI1NTk0NDNdfQ==
+eyJoaXN0b3J5IjpbLTU1NjIwMTM4LC0xODQ2NzQwOTg3LC0xNj
+gyNTU5NDQzXX0=
 -->
