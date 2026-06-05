@@ -154,7 +154,7 @@ Mini description: [Relational Databases, Entity-Relationship Model, Database Nor
 [Topic 1 - Data Representation]
 Mini description: [Floating-point Binary Representation, User-defined Data Types, File Organisation and Access]
 
-[Topic 2 - Algorithms I]
+[Topic 2 - Algorithms I. Searchin and Sorting Algorithms]
 Mini description: [Searching Algorithms (Linear, Binary), Sorting Algorithms (Bubble, Insertion), Space and Time Complexity (Big O Notation)]
 
 [Topic 3 - Recursion]
@@ -184,7 +184,10 @@ Mini description: [Process Management (Scheduling Algorithms), Memory Management
 [Topic 11 - Communication and Internet Technologies ]
 Mini description: [Circuit Switching and Packet Switching, TCP/IP Protocol Stack, Network Protocols (HTTP, POP3, IMAP, SMTP, Ethernet, Bittorrent)]
 
-[Topic - ]
+[Topic 12 - Security]
+Mini description: [Encryption, Digital Signatures, Digital Certificates, Encryption Protocols (SSL/TLS)]
+
+[Topic 13 - Algorithms II. Abstract Data Types (ADTs) ]
 Mini description: []
 
 ## 3. Initial state
@@ -199,7 +202,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODA4MzUxNywxNTA2NjA3ODM0LC0xOT
-AzNDMyNzIxLDg3OTkxODI4LC0xODQ2NzQwOTg3LC0xNjgyNTU5
-NDQzXX0=
+eyJoaXN0b3J5IjpbLTE3MTgyNjE4MDgsMTUwNjYwNzgzNCwtMT
+kwMzQzMjcyMSw4Nzk5MTgyOCwtMTg0Njc0MDk4NywtMTY4MjU1
+OTQ0M119
 -->
