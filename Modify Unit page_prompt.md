@@ -208,7 +208,10 @@ Mini description: [Computer Architecture, Boolean Logic, Data Transmission]
 Mini description: [Role of the OS, Multitasking, Process Management, Memory Management]
 
 [Topic  4 - Algorithms]
-Mini description: []
+Mini description: [Computational Thinking, Algorithm Design, Algorithm Implementation, Foundations of Searching and Sorting Algorithms, Handling Searching and Sorting Algorithms]
+
+[Topic 5 - Programming Foundations: Best Practice & Clean Code]
+Mini description: [Python Programming Basic]
 
 ## 3. Initial state
 
@@ -222,7 +225,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODM3NTA5MiwtMTkyNzQ0OTE5NCwxNT
+eyJoaXN0b3J5IjpbLTk4NDY3NTMwNywtMTkyNzQ0OTE5NCwxNT
 A2NjA3ODM0LC0xOTAzNDMyNzIxLDg3OTkxODI4LC0xODQ2NzQw
 OTg3LC0xNjgyNTU5NDQzXX0=
 -->
