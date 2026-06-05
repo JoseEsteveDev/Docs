@@ -142,6 +142,9 @@ Mini description: [Functions of the OS, Utility Software, Program Libraries, Lan
 Mini description: [Networking Models, Network Toplogies, Cloud Computing, Network Hardware, Bit Streaming, The Internet Infrastructure, IP Addressing and Subnetting, DNS System]
 
 [Topic 11 - Data Security, Privacy and Integrity]
+Mini description: [Security Measures, Threats, Security Methods, Data Validation Checks, Data Verification]
+
+[Topic 12 - Ethics and ]
 Mini description: []
 
 ## 3. Initial state
@@ -156,6 +159,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM0MzI3MjEsODc5OTE4MjgsLTE4ND
-Y3NDA5ODcsLTE2ODI1NTk0NDNdfQ==
+eyJoaXN0b3J5IjpbLTE3NjE1MTM2MTMsLTE5MDM0MzI3MjEsOD
+c5OTE4MjgsLTE4NDY3NDA5ODcsLTE2ODI1NTk0NDNdfQ==
 -->
