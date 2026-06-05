@@ -187,8 +187,8 @@ Mini description: [Circuit Switching and Packet Switching, TCP/IP Protocol Stack
 [Topic 12 - Security]
 Mini description: [Encryption, Digital Signatures, Digital Certificates, Encryption Protocols (SSL/TLS)]
 
-[Topic 13 - Algorithms II. Abstract Data Types (ADTs) ]
-Mini description: []
+[Topic 13 - Algorithms II. Abstract Data Types (ADTs)]
+Mini description: [Stack, Queue, Hash tables, Dictionaries, Linked Lists, Tree, Binary Search Tree, Graph]
 
 ## 3. Initial state
 
@@ -202,7 +202,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTgyNjE4MDgsMTUwNjYwNzgzNCwtMT
+eyJoaXN0b3J5IjpbLTE2MzA1NDM0MzksMTUwNjYwNzgzNCwtMT
 kwMzQzMjcyMSw4Nzk5MTgyOCwtMTg0Njc0MDk4NywtMTY4MjU1
 OTQ0M119
 -->
