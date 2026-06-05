@@ -90,7 +90,10 @@ Mini description: [Storing Data on Physical Devices, Embedded Systems]
 Mini description: [Types of Software, Simulating and Modeling Real World, Functions of an OS, Utility Software]
 
 [Topic 7 - Software II. Languages and Translators]
-Mini description: [Languages: LL and HL, Translators: Interpreters and COmp]
+Mini description: [Languages: LL and HL, Translators: Interpreters and Compilers]
+
+[Topic 8 - Computational Thinking]
+Mini description: []
 
 ## 3. Initial state
 
@@ -104,6 +107,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDA1OTk0MCwtMTg0Njc0MDk4NywtMT
+eyJoaXN0b3J5IjpbLTI4MTEzMzIyOCwtMTg0Njc0MDk4NywtMT
 Y4MjU1OTQ0M119
 -->
