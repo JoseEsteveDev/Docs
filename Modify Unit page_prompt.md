@@ -115,7 +115,10 @@ Mini description: [Environmental Impact, Ethical Impact, Legal Impact, Emerging 
 Mini description: [Computational Thinking Skills, Algorithms, Flowchart, Structured English, Stepwise Refinement, Basic Programming with Pseudocode]
 
 [Topic 2 - Structured Programming and Data Structures]
-Mini description: [Subprograms (Procedures and Functions), ]
+Mini description: [Subprograms (Procedures and Functions), Data Types and Data Structures, including Arrays and ADTs]
+
+[Topic - ]
+Mini description: []
 
 ## 3. Initial state
 
@@ -129,6 +132,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4NjAzMjY2LDg3OTkxODI4LC0xODQ2Nz
-QwOTg3LC0xNjgyNTU5NDQzXX0=
+eyJoaXN0b3J5IjpbMTc1MjA0ODExOSw4Nzk5MTgyOCwtMTg0Nj
+c0MDk4NywtMTY4MjU1OTQ0M119
 -->
