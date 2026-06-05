@@ -138,8 +138,8 @@ Mini description: [Instruction Set Groups, Trace Tables, Two-step Assembler Stag
 [Topic 9 - Operating Systems and Language Translators]
 Mini description: [Functions of the OS, Utility Software, Program Libraries, Language Translators (Assembler, Interpreter, Compiler), Features of IDEs]
 
-[Topic 10 - ]
-Mini description: []
+[Topic 10 - Communication and Networking Technologies]
+Mini description: [Networking Models, Network Toplogies, Cloud Computing, Network Hardware, Bit Streaming, ]
 
 ## 3. Initial state
 
@@ -153,6 +153,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTY4OTYyMyw4Nzk5MTgyOCwtMTg0Nj
-c0MDk4NywtMTY4MjU1OTQ0M119
+eyJoaXN0b3J5IjpbMzI1NzUyNjcyLDg3OTkxODI4LC0xODQ2Nz
+QwOTg3LC0xNjgyNTU5NDQzXX0=
 -->
