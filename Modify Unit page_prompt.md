@@ -148,7 +148,7 @@ Mini description: [Security Measures, Threats, Security Methods, Data Validation
 Mini description: [Professional Ethical Bodies (BCS, IEEE), Professional Ethics, Copyright Legislation, Software Licensing, Artificial Intelligence]
 
 [Topic 13 - Databases]
-Mini description: []
+Mini description: [Relational Databases, Entity-Relationship Model, Database Normalisation, Database Management Systems (DBMS), Structured Query Language (SQL)]
 
 ## 3. Initial state
 
@@ -162,6 +162,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjI1ODMwOCwtMTkwMzQzMjcyMSw4Nz
+eyJoaXN0b3J5IjpbMTUwNjYwNzgzNCwtMTkwMzQzMjcyMSw4Nz
 k5MTgyOCwtMTg0Njc0MDk4NywtMTY4MjU1OTQ0M119
 -->
