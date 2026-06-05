@@ -16,7 +16,7 @@ Modify the existing `/Units` page of my web app. **Important:** Keep the current
         
     -   **Topic name**
         
-    -   **Mini description** (short, one or two lines)
+    -   **Mini description** (display each content separated by a comma in a line using bullet points for clearer visualisation; don't use paragraph)
         
     -   **A button** that says "Access Resources".
         
@@ -271,7 +271,8 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDIxMjIwMCwxNDYxNDU0NjUwLC0xOT
-I3NDQ5MTk0LDE1MDY2MDc4MzQsLTE5MDM0MzI3MjEsODc5OTE4
-MjgsLTE4NDY3NDA5ODcsLTE2ODI1NTk0NDNdfQ==
+eyJoaXN0b3J5IjpbLTQ0MzkwODk2NywxMzI0MjEyMjAwLDE0Nj
+E0NTQ2NTAsLTE5Mjc0NDkxOTQsMTUwNjYwNzgzNCwtMTkwMzQz
+MjcyMSw4Nzk5MTgyOCwtMTg0Njc0MDk4NywtMTY4MjU1OTQ0M1
+19
 -->
