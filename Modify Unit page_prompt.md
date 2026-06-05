@@ -214,7 +214,10 @@ Mini description: [Computational Thinking, Algorithm Design, Algorithm Implement
 Mini description: [Python Programming Basics, Clean Code I, Program Design I, Data Handling Methods, Subprograms, Program Design II, Clean Code II, Functionality]
 
 [Topic 6 - Handling Data, Data Structures and ADTs]
-Mini description: [Data Structures Fundamentals, Handling Methods for Data Structures, Abstract Data T]
+Mini description: [Data Structures Fundamentals, Handling Methods for Data Structures, Abstract Data Types (ADTs), Handling Abstract Data Types (ADTs)]
+
+[Topic  7 - Networks and En]
+Mini description: []
 
 ## 3. Initial state
 
@@ -228,7 +231,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjAyMjg4NDQsLTE5Mjc0NDkxOTQsMT
-UwNjYwNzgzNCwtMTkwMzQzMjcyMSw4Nzk5MTgyOCwtMTg0Njc0
-MDk4NywtMTY4MjU1OTQ0M119
+eyJoaXN0b3J5IjpbMTQ2MTQ1NDY1MCwtMTkyNzQ0OTE5NCwxNT
+A2NjA3ODM0LC0xOTAzNDMyNzIxLDg3OTkxODI4LC0xODQ2NzQw
+OTg3LC0xNjgyNTU5NDQzXX0=
 -->
