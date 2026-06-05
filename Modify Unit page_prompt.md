@@ -84,7 +84,10 @@ Mini description: [Data Storage, File Size Expressions, Data Compression: Lossle
 Mini description: [Machines and Computational Modelling, Logic: the Foundation of Hardware, Hardware Components of a Computer System, Memory, Von Neumann Model, Factors that affect the performance of the CPU]
 
 [Topic 5 - Hardware II. Secondary Storage on Devices]
-Mini description: [Storing Data on Physical Devices, Embedded Systems, ]
+Mini description: [Storing Data on Physical Devices, Embedded Systems]
+
+[Topic 6 - Software I. Operating Systems]
+Mini description: [Types of Software, Simulating and Modeling Real World]
 
 ## 3. Initial state
 
@@ -98,6 +101,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTYxNjMyMiwtMTg0Njc0MDk4NywtMT
+eyJoaXN0b3J5IjpbLTg1MTMxMTk1NiwtMTg0Njc0MDk4NywtMT
 Y4MjU1OTQ0M119
 -->
