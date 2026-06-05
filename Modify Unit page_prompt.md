@@ -241,8 +241,14 @@ Mini description: [Boolean Logic, Computer Architecture, Operating Systems]
 [Topic 4 - Programming Paradigms I: Assembly Language]
 Mini description: [Assembly Language, Addressing Modes]
 
-[Topic 5 - Programming Paradigms II: Object-oriented Programming]
+[Topic 5 - Programming Paradigms II: Object-oriented Programming (OOP)]
 Mini description: [Object-oriented Paradigm, OOP Methods]
+
+[Topic 6 - Sorting, Pathfinding, and Compression Algorithms]
+Mini description: [Sorting Algorithms Foundation, Sorting Algorithms Implementation, Pathfinding Algorithms, Shortest Path and Compression Algorithms Implementation, Algorithmic Efficiency (Big O Notation)]
+
+[Topic 7 - ]
+Mini description: []
 
 ## 3. Initial state
 
@@ -256,7 +262,7 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzcwOTA3NywxNDYxNDU0NjUwLC0xOT
-I3NDQ5MTk0LDE1MDY2MDc4MzQsLTE5MDM0MzI3MjEsODc5OTE4
-MjgsLTE4NDY3NDA5ODcsLTE2ODI1NTk0NDNdfQ==
+eyJoaXN0b3J5IjpbNTg2MDUxNzk1LDE0NjE0NTQ2NTAsLTE5Mj
+c0NDkxOTQsMTUwNjYwNzgzNCwtMTkwMzQzMjcyMSw4Nzk5MTgy
+OCwtMTg0Njc0MDk4NywtMTY4MjU1OTQ0M119
 -->
