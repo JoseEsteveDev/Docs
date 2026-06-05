@@ -93,7 +93,10 @@ Mini description: [Types of Software, Simulating and Modeling Real World, Functi
 Mini description: [Languages: LL and HL, Translators: Interpreters and Compilers]
 
 [Topic 8 - Computational Thinking]
-Mini description: []
+Mini description: [Decomposition and Abstraction, Algorithms, Searching and Sorting Algorithms]
+
+[Topic 9 - Programming I]
+Mini description: [Data Typoes,]
 
 ## 3. Initial state
 
@@ -107,6 +110,6 @@ Before any selection, show a message like: *"Select your level and exam board to
 
 Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. [I have placed only the contents of CAIE-IGCSE as a proof. If this is working I will update this prompt with all the unit contents of all the exam boards/levels]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTEzMzIyOCwtMTg0Njc0MDk4NywtMT
-Y4MjU1OTQ0M119
+eyJoaXN0b3J5IjpbLTE5MDgyNzk5OTMsLTE4NDY3NDA5ODcsLT
+E2ODI1NTk0NDNdfQ==
 -->
