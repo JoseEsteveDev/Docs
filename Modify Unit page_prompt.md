@@ -140,31 +140,10 @@ text
 **Now, process the document uploaded.**
 ```
 
-| # | Key Term | Definition (from the document) |
-|---|----------|--------------------------------|
-| 1 | **Numerical System** | “system that defines how a number can be represented using distinct symbols” |
-| 2 | **Positional numeral system** | “system for representation of numbers by an ordered set of numerals symbols (called digits) in which the value of a numeral symbol depends on its position such as decimal, binary or hexadecimal systems” |
-| 3 | **Non‑positional numeral system** | “numeral system which uses a limited number of symbols in which each symbol has a value, but there is no relationship between value and position such as the roman number system” |
-| 4 | **Decimal System** | “a base‑10 (radix‑10) system, so 10 symbols are used to represent a number (0,1,2,3,4,5,6,7,8,9), called decimal digits” |
-| 5 | **Binary System** | “a base‑2 (radix‑2) system → 2 symbols are used to represent a number → {0,1} → binary digits (bits)” |
-| 6 | **Bits** | “binary digits” |
-| 7 | **Hexadecimal System** | “a base‑16 (radix‑16) system, so 16 symbols are used to represent a number {0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F}, called hex characters” and “used as a shorted way to represent binary” |
-| 8 | **Hex characters** | “symbols used to represent a number in the hexadecimal system: 0‑9 and A‑F” |
-| 9 | **Modulus (Modular Arithmetic)** | “modulus is an important number used in Computer Science and is defined as the number that we count up to and then start over (wrap into) or as the remainder after dividing one number by another” |
-| 10 | **Overflow** | “when two 8‑bit binary numbers are added together, it may be possible to rise an error because of the result contains more bits than the original binary numbers before the addition – this is called an overflow error, which indicates that the result of the addition is too big to be stored in the computer using 8 bits” |
-| 11 | **Logical shift** | “an operation that shifts all the bits of its operand” (the document describes left shift = multiply by 2ⁿ, right shift = divide by 2ⁿ) |
-| 12 | **Two's Complement** | “to represent negative integers we will make use of two's complement (2's Complement), where: 8‑bit registers are being used; the left‑most bit (Most Significant Bit, MSB) has a negative place value; the other bits remain with the same place value” |
-| 13 | **Register** | “a group of bits allocated in processor's memory that allows to control a system” |
-| 14 | **Machine Code** | “a computer programming language consisting of binary or hexadecimal instructions which a computer can respond to directly” |
-| 15 | **MAC Address (Media Access Control Address)** | “12‑digit hexadecimal code that uniquely identify each different device connected to a network; it refers to the network interface card (NIC)” |
-| 16 | **Nibble** | “groups of 4 bits, called nibbles” |
-| 17 | **Binary Coded Decimal (BCD)** | “store information using Binary Coded Decimal system. The information of each digit is stored separately in 4‑bits registers” |
-| 18 | **IPv4 address** | “a 32‑bit number written in denary or hexadecimal form” |
-| 19 | **IPv6 address** | “a 128‑bit number broken into 16‑bit chunks, represented by a hexadecimal number” |
-| 20 | **Hex colour notation** | “consists of a hashtag followed by 6 hex characters in the form #RRGGBB, where RR = red, GG = green, BB = blue” |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2NDY0Nzk3LDE2MTE5Njg1NDcsLTQ0Mz
-kwODk2NywxMzI0MjEyMjAwLDE0NjE0NTQ2NTAsLTE5Mjc0NDkx
-OTQsMTUwNjYwNzgzNCwtMTkwMzQzMjcyMSw4Nzk5MTgyOCwtMT
-g0Njc0MDk4NywtMTY4MjU1OTQ0M119
+eyJoaXN0b3J5IjpbMTY5OTQyNjE3NSw5MzY0NjQ3OTcsMTYxMT
+k2ODU0NywtNDQzOTA4OTY3LDEzMjQyMTIyMDAsMTQ2MTQ1NDY1
+MCwtMTkyNzQ0OTE5NCwxNTA2NjA3ODM0LC0xOTAzNDMyNzIxLD
+g3OTkxODI4LC0xODQ2NzQwOTg3LC0xNjgyNTU5NDQzXX0=
 -->
