@@ -1,278 +1,139 @@
-## # Prompt for Gemini – Modify `/Units` Page (keep existing design, add unit resource buttons)
+# Prompt definitivo para extracción de contenido educativo (configurable)
 
-Modify the existing `/Units` page of my web app. **Important:** Keep the current design, colors, typography, layout, and styling exactly as they are. Do not add new CSS, margins, shadows, or colors unless they already exist. Do not change anything visual except adding the functionality described below.
+Eres un **profesor experto en Computer Science** (nivel IGCSE/A Level/IAL). Tu tarea es analizar el documento que te voy a proporcionar y extraer **todas las ideas principales** de forma exhaustiva, sin inventar nada y sin omitir ningún concepto relevante.
 
-## 1. Add two selectors (two-step)
+## Configuración inicial (elige antes de empezar)
 
--   **First selector (Level):** options `IGCSE` and `A Level`
-    
--   **Second selector (Exam Board):** depends on chosen level
-    
-    -   If Level = `IGCSE` → options `CAIE` and `Edexcel`
-    -   If Level = `A Level` → options `CAIE` and `Edexcel (IAL)` When the user selects a level and an exam board, display the corresponding units below.
--   Each unit must show:
-    
-    -   **Topic number**
-        
-    -   **Topic name**
-        
-    -   **Mini description** (display each content separated by a comma in a line using bullet points for clearer visualisation; don't use paragraph)
-        
-    -   **A button** that says "Access Resources".
-        
+Antes de procesar el documento, debes preguntar al usuario:
 
-### 2. Contents of the units
+-   **Quieres incluir algoritmos / pseudocódigo / código?** [SÍ / NO]
+-   **Quieres incluir ejemplos numéricos?** [SÍ / NO]
+-   **Quieres incluir tablas o diagramas textuales?** [SÍ / NO]
+-   **Quieres incluir fórmulas / expresiones matemáticas?** [SÍ / NO]
 
-#### CAIE + IGCSE
+Si alguna categoría está marcada como NO, simplemente omite esa sección en la salida, aunque el documento la contenga. No la menciones.
 
-[Topic 1 – Number Systems]  
-Mini description: [How data is stored in binary, hexadecimal, two's complement, binary arithmetic, binary shifts, data storage measurement]
+## Reglas de oro (siempre aplican)
 
-[Topic 2 – Data Representation]  
-Mini description: [Character sets (ASCII, Unicode), Bitmap images, Sound, Lossless and Lossy Compression]
+1.  **Fidelidad absoluta:** Cada frase que escribas debe estar explícitamente en el documento original. No parafrasees de forma que cambie el sentido.
+2.  **No fusionar conceptos:** Si el documento presenta dos ideas separadas, preséntalas por separado.
+3.  **No omitir elementos:** Extrae **todas** las definiciones, conceptos, ejemplos (si está activado), etc. Usa el checklist final para verificar.
+4.  **Respetar la jerarquía:** Si el documento usa listas con sublistas, reprodúcelas con la misma indentación.
+5.  **Prohibido inventar:** Si el documento no explica algo, no lo expliques. Si encuentras una contradicción, extráela tal cual y añade una nota `[Contradicción en el original]`.
+6.  **Referenciar la fuente:** Cada bloque de contenido debe ir acompañado de una referencia simulada a su ubicación en el original: `[Sec. X]`, `[Pág. Y]` o `[ítem N]`.
 
-[Topic 3 - Databases]
-Mini description: [Data types, Database fundamentals (fields, records, primary key, validation), SQL queries]
+## Flujo de trabajo (no saltarse pasos)
 
-[Topic 4 - Logic Circuits]
-Mini description: [Logic gates, Logic circuits, Trace tables, Problem statements]
+### Paso 1: Análisis estructural
 
-[Topic 5 - Computer Architecture]
-Mini description: [Von Neumann Architecture, Components of the computer, Components of the CPU, Fetch-Decode-Execute Cycle, Factors that affect the performance of a CPU (core, cache size, clock speed), Instruction set, Embedded Systems]
+-   Lee el documento completo una vez.
+-   Divide el contenido en **bloques temáticos** naturales (por títulos, diapositivas, secciones). Asigna a cada bloque un identificador único (B1, B2, ...).
 
-[Topic 6 - Software and Operating Systems]
-Mini description: [Types of software (Application and System software), Functions of the OS, Firmware & BIOS, Interrupt Handling]
+### Paso 2: Extracción por bloque (solo las categorías activadas)
 
-[Topic 7 - Programming Languages & Translators]
-Mini description: [High-level, low level and assembly languages, Translators (Compilers, Interpreters), Role of the IDE in writing programs]
+Para cada bloque, extrae:
 
-[Topic 8 - Algorithm Design]
-Mini description: [Program Development Life Cycle, Subsystems, Structured Diagrams, Flowcharts, Trace tables]
+-   **Definiciones:** Frases que definan un término. Cada definición en una línea, con `[Bloque BX]`.
+-   **Conceptos clave:** Ideas esenciales que no sean definiciones (propiedades, características, ventajas, desventajas). En viñetas.
+-   **Algoritmos / pseudocódigo / código** (solo si la configuración lo activa): Código completo, respetando indentación. Si el algoritmo se explica en pasos, transfórmalo en una lista numerada.
+-   **Ejemplos** (solo si está activado): Cada ejemplo numérico o de código, con datos de entrada y salida. Usa bloques de código si procede.
+-   **Tablas / diagramas textuales** (solo si está activado): Reproduce tablas en Markdown; para diagramas descritos con palabras, escribe una descripción literal.
+-   **Fórmulas / expresiones** (solo si está activado): Usa LaTeX entre `$$` o `$`.
 
-[Topic 9 - Programming with Pseudocode]
-Mini description: [Variables, Constants, Operators, Programming Constructs (Sequence, Selection, Iteration), Standard Methods of Solution, String Handling, Built-in Functions, Variable scope, 1D and 2D arrays]
+### Paso 3: Segunda pasada de verificación
 
-[Topic 10 - Hardware: Memory & Storage]
-Mini description: [Input and Output Devices, Memory (RAM, ROM), Storage (Magnetic, Optical, Solid-state, Virtual memory]
+-   Vuelve a leer el documento original línea por línea.
+-   Compara con lo extraído. Si falta algo, incorpóralo inmediatamente.
+-   Al final, declara: **"No he omitido ningún elemento del documento original dentro de las categorías activadas."**
 
-[Topic 11 - Automated and Emerging Technologies]
-Mini description: [Automated Systems, Robotics, Artificial Intelligence]
+### Paso 4: Generación del checklist cualitativo`
 
-[Topic 12 - Further Programming]
-Mini description: [Searching and Sorting Algorithms, validation checks, test data, Subprograms (Functions and Procedures), Variable scope, File Handling]
+```
+Marca `[x]` cada ítem que corresponde:
 
-[Topic 13 - Data Transmission]
-Mini description: [Methods: Serial, Parallel, Simplex, Half-duplex, Full duplex, Methods of error detection: Parity Bit, Parity Block Check, Checksum, Echo Check, Check Digit, Automatic Repeat Query (ARQ), Encryption]
+- [ ] Bloque 1: [título del bloque]
+  - [ ] Definiciones: [lista de términos separados por comas]
+  - [ ] Conceptos: [lista de conceptos separados por comas]
+  - [ ] (Si aplica) Algoritmos: [nombres de algoritmos]
+  - [ ] (Si aplica) Ejemplos: [breve descripción de cada ejemplo]
+- [ ] Bloque 2: ...
 
-[Topic 14 - Networks & The Internet]
-Mini description: [Network Hardware (NIC, MAC, IP, router), The Internet, URL, HTTP, web browser, HTML, DNS, cookies, Digital Currency (Blockchain)]
+```
 
-[Topic 15 - Cybersecurity]
-Mini description: [Cybersecurity threats, Solutions to these security threats]
+### **Paso 5: Auto‑informe de fidelidad**
 
-#### EDEXCEL + IGCSE
-[Topic 1 - Data Representation I. Number Systems]
-Mini description: [Use of Binary, Binary and Hexadecimal Number Systems, Conversions between systems, Binary Arithmetic]
+Escribe un párrafo final que responda:
 
-[Topic 2 - Data Representation II. Text and Multimedia]
-Mini description: [Text Representation, Bitmap Images, Sound Representation, Limitations on Binary Representation]
+-   "He extraído el 100% de los elementos identificables del documento dentro de las categorías activadas. No he añadido ningún contenido externo. Las únicas adiciones son las referencias de ubicación y los números de lista, que son metadatos."
 
-[Topic 3 - Data Representation III. Storage, Compression ( Encryption]
-Mini description: [Data Storage, File Size Expressions, Data Compression: Lossless and Lossy, Data Encryption]
+## **Formato de salida (Markdown estricto)**
 
-[Topic 4 - Hardware I. Structure of Machines]
-Mini description: [Machines and Computational Modelling, Logic: the Foundation of Hardware, Hardware Components of a Computer System, Memory, Von Neumann Model, Factors that affect the performance of the CPU]
+Usa la siguiente plantilla exactamente. Omite cualquier sección que corresponda a una categoría desactivada.
 
-[Topic 5 - Hardware II. Secondary Storage on Devices]
-Mini description: [Storing Data on Physical Devices, Embedded Systems]
+```
+# [Título del documento original]
 
-[Topic 6 - Software I. Operating Systems]
-Mini description: [Types of Software, Simulating and Modeling Real World, Functions of an OS, Utility Software]
+## Bloque B1 – [Nombre del bloque]
 
-[Topic 7 - Software II. Languages and Translators]
-Mini description: [Languages: LL and HL, Translators: Interpreters and Compilers]
+### Definiciones (B1)
+- **Término1:** definición textual `[B1]`
+- **Término2:** definición textual `[B1]`
 
-[Topic 8 - Computational Thinking]
-Mini description: [Decomposition and Abstraction, Algorithms, Searching and Sorting Algorithms]
+### Conceptos clave (B1)
+- Concepto A (explicación) `[B1]`
+- Concepto B (explicación) `[B1]`
 
-[Topic 9 - Programming I]
-Mini description: [Data Types, Variables and Constants, Input and Output, Operators, Programming Constructs, Data Structures]
+### Algoritmos / Pseudocódigo (B1)  *(solo si activado)*
+```pseudocode
+código respetando indentación
 
-[Topic 10 - Programming II]
-Mini description: [Validation of Data Input, Subprograms, File Handling]
+```
 
-[Topic 11 - Networks]
-Mini description: [Network Design & Protocols, The Internet & The World Wide Web]
+`[B1]`
 
-[Topic 12 - Network Security]
-Mini description: [Security Fundamentals, Cyber threats and Attacks, Vulnerability Assessment, Protection of Mitigation Strategies]
+### **Ejemplos (B1) _(solo si activado)_**
 
-[Topic 13 - The Bigger Picture]
-Mini description: [Environmental Impact, Ethical Impact, Legal Impact, Emerging Technologies]
+1.  Ejemplo 1: ... `[B1]`
+2.  Ejemplo 2: ... `[B1]`
 
-#### CAIE - AS 
-[Topic 1 - Algorithm Design and Problem Solving]
-Mini description: [Computational Thinking Skills, Algorithms, Flowchart, Structured English, Stepwise Refinement, Basic Programming with Pseudocode]
+### **Tablas (B1) _(solo si activado)_**
 
-[Topic 2 - Structured Programming and Data Structures]
-Mini description: [Subprograms (Procedures and Functions), Data Types and Data Structures, including Arrays and ADTs]
+**Col1**
 
-[Topic 3 - Software Development]
-Mini description: [Program Development Life Cycle, Program Testing, Program Maintenance]
+**Col2**
 
-[Topic 4 - Information Representation]
-Mini description: [Number systems (Binary, Hexadecimal), Binary Arithmetic, Binary Coded Decimal (BCD), Two's Complement, Text Representation, Bitmap and Vector Images, Sound Representation, Lossy and Lossless Compression]
+...
 
-[Topic 5 - Logic Circuits]
-Mini description: [Logic gates, Logic Circuits, Truth tables, Problem-solving applied to Logic Circuits ]
+...
 
-[Topic 6 - Hardware]
-Mini description: [Computers and their Components (Embedded Systems, Memory, Storage), Hardware Devices (Laser Printer, 3D Printer, Microphone, Speakers, Screens, Touchscreens, Virtual Headset)]
+`[B1]`
 
-[Topic 7 - Processor Fundamentals]
-Mini description: [Von Neumann Architecture; Purpose of Registers, ALU, CU, System Clock, and IAS; Factors that affect the performance of the CPU, Ports (USB, VGA, HDMI), FDE Cycle, Interrupts]
+### **Fórmulas (B1) _(solo si activado)_**
 
-[Topic 8 - Assembly Language & Bit Manipulation]
-Mini description: [Instruction Set Groups, Trace Tables, Two-step Assembler Stages, Addressing Modes, Bit Manipulation in Monitoring/Controlling Processes]
+expresioˊnLaTeX_expresio_ˊ_nLaTeX_ `[B1]`
 
-[Topic 9 - Operating Systems and Language Translators]
-Mini description: [Functions of the OS, Utility Software, Program Libraries, Language Translators (Assembler, Interpreter, Compiler), Features of IDEs]
+----------
 
-[Topic 10 - Communication and Networking Technologies]
-Mini description: [Networking Models, Network Toplogies, Cloud Computing, Network Hardware, Bit Streaming, The Internet Infrastructure, IP Addressing and Subnetting, DNS System]
+## **Bloque B2 – ...**
 
-[Topic 11 - Data Security, Privacy and Integrity]
-Mini description: [Security Measures, Threats, Security Methods, Data Validation Checks, Data Verification]
+...
 
-[Topic 12 - Ethics and Ownership]
-Mini description: [Professional Ethical Bodies (BCS, IEEE), Professional Ethics, Copyright Legislation, Software Licensing, Artificial Intelligence]
+## **Recuento cuantitativo**
 
-[Topic 13 - Databases]
-Mini description: [Relational Databases, Entity-Relationship Model, Database Normalisation, Database Management Systems (DBMS), Structured Query Language (SQL)]
+[listado según categorías activadas]
 
-#### CAIE - A2
-[Topic 1 - Data Representation]
-Mini description: [Floating-point Binary Representation, User-defined Data Types, File Organisation and Access]
+## **Checklist cualitativo para revisión manual**
 
-[Topic 2 - Algorithms I. Searchin and Sorting Algorithms]
-Mini description: [Searching Algorithms (Linear, Binary), Sorting Algorithms (Bubble, Insertion), Space and Time Complexity (Big O Notation)]
+[lista de ítems según bloques]
 
-[Topic 3 - Recursion]
-Mini description: [Recursion Features, Trace Tables, Call Stacks and Unwinding]
+## **Auto‑informe de fidelidad**
 
-[Topic 4 - Programming Paradigms I. Low-level Programming]
-Mini description: [Programming Paradigms, Addressing Modes, Low-level Programming]
+[texto del paso 5]
 
-[Topic 5 - Programming Paradigms II. Declarative Programming]
-Mini description: [Facts and Rules, Prolog Programming]
-
-[Topic 6 - Programming Paradigms III. Object-oriented Programming]
-Mini description: [OOP Features, Solve Problems using OOP, Inheritance, Polymorphism, Aggregation, Composition]
-
-[Topic 7 - Boolean Algebra]
-Mini description: [Boolean Algebra, Karnaugh Maps, Half- and Full-adder Circuits, SR and JK Flip-flops]
-
-[Topic 8 - Processors and Computer Architecture]
-Mini description: [RISC and CISC processors, Parallel Processing, Virtual Machines]
-
-[Topic 9 - System Software I. Translators]
-Mini description: [Stages on the Compilation Process, Grammar of a Language (Syntax Diagrams, Backus-Naur Form (BNF) notation, Reverse Polish Notation (RPN)]
-
-[Topic 10 - System Software II. Operating Systems]
-Mini description: [Process Management (Scheduling Algorithms), Memory Management]
-
-[Topic 11 - Communication and Internet Technologies ]
-Mini description: [Circuit Switching and Packet Switching, TCP/IP Protocol Stack, Network Protocols (HTTP, POP3, IMAP, SMTP, Ethernet, Bittorrent)]
-
-[Topic 12 - Security]
-Mini description: [Encryption, Digital Signatures, Digital Certificates, Encryption Protocols (SSL/TLS)]
-
-[Topic 13 - Algorithms II. Abstract Data Types (ADTs)]
-Mini description: [Stack, Queue, Hash tables, Dictionaries, Linked Lists, Tree, Binary Search Tree]
-
-[Topic 14 - Artificial Intelligence]
-Mini description: [Graphs, Shortest Path Algorithms (A*, Dijkstra), Machine Learning, Reinforcement Learning, Back Propagation and Regresion]
-
-[Topic 15 - Further Programming]
-Mini description: [Exception Handling, File Processing Programming]
-
-#### EDEXCEL - AS
-
-[Topic 1 - Data Representation]
-Mini description: [Number Systems, Units of Measurement, Binary Arithmetic, Text Representation]
-
-[Topic  2 - Computer Systems]
-Mini description: [Computer Architecture, Boolean Logic, Data Transmission]
-
-[Topic  3 - Operating Systems]
-Mini description: [Role of the OS, Multitasking, Process Management, Memory Management]
-
-[Topic  4 - Algorithms]
-Mini description: [Computational Thinking, Algorithm Design, Algorithm Implementation, Foundations of Searching and Sorting Algorithms, Handling Searching and Sorting Algorithms]
-
-[Topic 5 - Programming Foundations: Best Practice & Clean Code]
-Mini description: [Python Programming Basics, Clean Code I, Program Design I, Data Handling Methods, Subprograms, Program Design II, Clean Code II, Functionality]
-
-[Topic 6 - Handling Data, Data Structures and ADTs]
-Mini description: [Data Structures Fundamentals, Handling Methods for Data Structures, Abstract Data Types (ADTs), Handling Abstract Data Types (ADTs)]
-
-[Topic  7 - Networks and Encryption]
-Mini description: [Network Fundamentals, Encryption]
-
-[Topic 8 - Further Programming]
-Mini description: [Programming Paradigms, Recursion Fundamentals, Handling Recursive Programs]
-
-[Topic 9 - Databases]
-Mini description: [Relational Databases, Relational Databases Programming]
-
-[Topic  10 - Enabling Technologies]
-Mini description: [Data Science, Artificial Intelligence, Programming Tools]
-
-#### EDEXCEL - A2
-[Topic 1 - Algorithms & Programming]
-Mini description: [Algorithm Design, Programming]
-
-[Topic 2 - Representing & Handling Data]
-Mini description: [Data Representation, Handling Data]
-
-[Topic 3 - Computer Systems]
-Mini description: [Boolean Logic, Computer Architecture, Operating Systems]
-
-[Topic 4 - Programming Paradigms I: Assembly Language]
-Mini description: [Assembly Language, Addressing Modes]
-
-[Topic 5 - Programming Paradigms II: Object-oriented Programming (OOP)]
-Mini description: [Object-oriented Paradigm, OOP Methods]
-
-[Topic 6 - Sorting, Pathfinding, and Compression Algorithms]
-Mini description: [Sorting Algorithms Foundation, Sorting Algorithms Implementation, Pathfinding Algorithms, Shortest Path and Compression Algorithms Implementation, Algorithmic Efficiency (Big O Notation)]
-
-[Topic 7 - Programming Paradigms III. Functional Programming]
-Mini description: [Functional Programming Paradigm, Functional Programming Methods]
-
-[Topic 8 - Networks, Computing Paradigms, and Cybersecurity]
-Mini description: [Networking, The Internet of Things (IoT), Computing Paradigms, Cybersecurity]
-
-[Topic 9 - Structuring and Handling Data [Abstract Data Types (ADTs)]]
-Mini description: [Structure and Operations of ADTs, Methods to represent ADTs in Programming]
-
-[Topic 10 - Emerging Technologies and Professional Practice]
-Mini description: [Emerging Technologies (Encryption, Blockchain, Quantum Computing, Deep Learning), Professional Practice]
-
-## 3. Initial state
-
-Before any selection, show a message like: *"Select your level and exam board to see units and resources."*
-
-## 4. Button behaviour
-
--   Each unit card must have a button (e.g., "Access Resources").
--   The button should link to a separate page for that unit's resources. For now, use a relative path such as `/resources/level/option/unit <topic number>. <topic name>` . Also, create the empty page with the same style of the website.
--   Style the button to match your existing design (if you have button styles, reuse them; otherwise, a simple blue background or outline is fine).
-
-Now, generate the complete code for the `/Units` page based on the real data I will fill in the placeholders above. 
+text
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzkwODk2NywxMzI0MjEyMjAwLDE0Nj
-E0NTQ2NTAsLTE5Mjc0NDkxOTQsMTUwNjYwNzgzNCwtMTkwMzQz
-MjcyMSw4Nzk5MTgyOCwtMTg0Njc0MDk4NywtMTY4MjU1OTQ0M1
-19
+eyJoaXN0b3J5IjpbNTkwODc1MTQ4LC00NDM5MDg5NjcsMTMyND
+IxMjIwMCwxNDYxNDU0NjUwLC0xOTI3NDQ5MTk0LDE1MDY2MDc4
+MzQsLTE5MDM0MzI3MjEsODc5OTE4MjgsLTE4NDY3NDA5ODcsLT
+E2ODI1NTk0NDNdfQ==
 -->
