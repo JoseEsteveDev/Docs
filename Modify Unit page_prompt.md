@@ -118,9 +118,6 @@ expresioˊnLaTeX_expresio_ˊ_nLaTeX_ `[B1]`
 
 ...
 
-## **Recuento cuantitativo**
-
-[listado según categorías activadas]
 
 ## **Checklist cualitativo para revisión manual**
 
@@ -132,8 +129,8 @@ expresioˊnLaTeX_expresio_ˊ_nLaTeX_ `[B1]`
 
 text
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwODc1MTQ4LC00NDM5MDg5NjcsMTMyND
-IxMjIwMCwxNDYxNDU0NjUwLC0xOTI3NDQ5MTk0LDE1MDY2MDc4
-MzQsLTE5MDM0MzI3MjEsODc5OTE4MjgsLTE4NDY3NDA5ODcsLT
-E2ODI1NTk0NDNdfQ==
+eyJoaXN0b3J5IjpbLTQ2MjQyOTMyOSwtNDQzOTA4OTY3LDEzMj
+QyMTIyMDAsMTQ2MTQ1NDY1MCwtMTkyNzQ0OTE5NCwxNTA2NjA3
+ODM0LC0xOTAzNDMyNzIxLDg3OTkxODI4LC0xODQ2NzQwOTg3LC
+0xNjgyNTU5NDQzXX0=
 -->
