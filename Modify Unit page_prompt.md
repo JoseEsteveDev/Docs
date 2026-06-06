@@ -128,8 +128,13 @@ LaTeXexpression_LaTeXexpression_ `[B1]`
 [text from step 5]
 
 text
+````
+## Handling long documents 
+- If the document exceeds **10,000 characters**, split it into fragments of 5,000 characters each, process each fragment separately with the same method, then **merge the results** (without duplicating headers). Indicate which fragment each block comes from: `[Fragment 1]`. 
+- - If the document contains **images without alt text**, write: `[Image not available as text. Contextual inferred description: ...]` and add this extraction to the "textual diagrams" category. ## Final instruction **Configuration for this document:** - Include algorithms/pseudocode/code: [ANSWER YES/NO] - Include numerical examples: [ANSWER YES/NO] - Include tables/diagrams: [ANSWER YES/NO] - Include formulas: [ANSWER YES/NO] **Now, process the document uploaded.**
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODQzNzY0NywtNDQzOTA4OTY3LDEzMj
+eyJoaXN0b3J5IjpbMTU3ODg5NjE3NiwtNDQzOTA4OTY3LDEzMj
 QyMTIyMDAsMTQ2MTQ1NDY1MCwtMTkyNzQ0OTE5NCwxNTA2NjA3
 ODM0LC0xOTAzNDMyNzIxLDg3OTkxODI4LC0xODQ2NzQwOTg3LC
 0xNjgyNTU5NDQzXX0=
